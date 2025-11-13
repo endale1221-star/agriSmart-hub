@@ -1,0 +1,144 @@
+/* -------------------
+  Global Styles
+------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f8e9;
+    color: #2e7d32;
+}
+
+/* -------------------
+  Navbar
+------------------- */
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar .nav-link {
+    color: #2e7d32 !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #81c784 !important;
+}
+
+/* -------------------
+  Headings
+------------------- */
+h2, h4, h5 {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* -------------------
+  Buttons
+------------------- */
+.btn-success {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #81c784;
+    border-color: #81c784;
+    color: #fff;
+}
+
+/* -------------------
+  Cards
+------------------- */
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Card titles */
+.card-title {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+/* -------------------
+  Footer
+------------------- */
+footer {
+    background-color: #2e7d32 !important;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #81c784;
+}
+
+/* -------------------
+  Carousel Captions
+------------------- */
+.carousel-caption h5,
+.carousel-caption p {
+    color: #f1f8e9;
+}
+
+/* -------------------
+  Forms
+------------------- */
+.form-label {
+    font-weight: 500;
+}
+
+input.form-control,
+textarea.form-control {
+    border-radius: 8px;
+    border: 1px solid #81c784;
+    transition: 0.3s;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+}
+
+/* -------------------
+  Progress Bars (About Page)
+------------------- */
+.progress {
+    height: 25px;
+    border-radius: 12px;
+    background-color: #e0f2f1;
+}
+
+.progress-bar {
+    background-color: #2e7d32;
+    font-weight: bold;
+}
+
+/* -------------------
+  Misc
+------------------- */
+.text-success {
+    color: #2e7d32 !important;
+}
+
+.bg-success {
+    background-color: #2e7d32 !important;
+}
+
+/* Hover effect for images */
+img:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
