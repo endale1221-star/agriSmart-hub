@@ -7,9 +7,7 @@ body {
     color: #2e7d32;
 }
 
-/* -------------------
-  Navbar
-------------------- */
+ 
 .navbar {
     background-color: #ffffff !important;
 }
@@ -25,17 +23,13 @@ body {
     color: #81c784 !important;
 }
 
-/* -------------------
-  Headings
-------------------- */
+
 h2, h4, h5 {
     color: #2e7d32;
     font-weight: bold;
 }
 
-/* -------------------
-  Buttons
-------------------- */
+ 
 .btn-success {
     background-color: #2e7d32;
     border-color: #2e7d32;
@@ -48,9 +42,7 @@ h2, h4, h5 {
     color: #fff;
 }
 
-/* -------------------
-  Cards
-------------------- */
+ 
 .card {
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -61,17 +53,15 @@ h2, h4, h5 {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Card titles */
+ 
 .card-title {
     color: #2e7d32;
     font-weight: bold;
 }
 
-/* -------------------
-  Footer
-------------------- */
+ 
 footer {
-    background-color: #2e7d32 !important;
+    background-color:green !important;
     color: #ffffff;
 }
 
